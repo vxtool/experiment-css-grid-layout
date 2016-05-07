@@ -15,6 +15,7 @@ body {
   padding: 20px;
   font-size: 2em;
 }
+
 .header {
   grid-column-start: 1;
   grid-column-end: 4;

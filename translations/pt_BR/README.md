@@ -1,15 +1,15 @@
-# Experimento Com disposição de grade via CSS
+# Experimento com a disposição de grade via CSS
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
 [![issues](https://img.shields.io/github/issues/experiment-solutions/experiment-css-grid-layout.svg?style=flat-square)](https://github.com/experiment-solutions/experiment-css-grid-layout/issues)
 
 ## Traduções
 
-* [ORIGINAL]((https://github.com/experiment-solutions/experiment-css-grid-layout/)
+* [ORIGINAL](https://github.com/experiment-solutions/experiment-css-grid-layout/)
 
 ## Suporte 
 
-Apenas IE 10+ e Edge suporte a disposição de grade. Ele pode ser habilitado no Chrome através da bandeira `Recursos experimentais da Plataforma Web` em `chrome://flags`, na barra de endereço do navegador. Você pode habilitá-lo no Firefox usando o sinalizador `layout.css.grid.enabled`.
+Apenas IE 10+ e Edge dão suporte a `CSS grid`. Ele pode ser habilitado no Chrome através da bandeira `Recursos experimentais da Plataforma Web` em `chrome://flags`, na barra de endereço do navegador. Você pode habilitá-lo no Firefox usando o sinalizador `layout.css.grid.enabled`.
 
 ## Contribuindo
 
