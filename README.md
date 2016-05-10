@@ -9,7 +9,13 @@
 
 ## Browser Support
 
+- Chrome 29+(Enabling flag)
+- Firefox 40+(Enabling flag)
+- Opera 28+(Enabling flag)
+- IE 10+
+
 Only IE 10+ and Edge support Grid Layout. It can be enabled in Chrome through the `Experimental Web Platform features` flag in `chrome://flags`. You can enable it in Firefox using the `layout.css.grid.enabled` flag.
+
 
 ## Contributing
 

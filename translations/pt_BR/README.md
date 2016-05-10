@@ -9,6 +9,11 @@
 
 ## Suporte 
 
+- Chrome 29+(Ativando a Bandeira)
+- Firefox 40+(Ativando a Bandeira)
+- Opera 28+(Ativando a Bandeira)
+- IE 10+
+
 Apenas IE 10+ e Edge dão suporte a `CSS grid`. Ele pode ser habilitado no Chrome através da bandeira `Recursos experimentais da Plataforma Web` em `chrome://flags`, na barra de endereço do navegador. Você pode habilitá-lo no Firefox usando o sinalizador `layout.css.grid.enabled`.
 
 ## Contribuindo
