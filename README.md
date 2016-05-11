@@ -35,6 +35,17 @@ The element on which `display: grid` is applied. It's the direct parent of all t
 
 ### Grid Item
 
+Direct children of the `grid container`. Here the `grid-item` elements are grid items, but `grid-subitem` isn't.
+
+```html
+<div class="grid-container">
+  <div class="grid-item item-1">
+    <div class="grid-subitem"></div>
+  </div>
+  <div class="grid-item item-2"></div>
+</div>
+```
+
 ### Grid Line
 
 ### Grid Track

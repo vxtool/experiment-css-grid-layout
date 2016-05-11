@@ -35,6 +35,17 @@ O elemento no qual `display: grid` é aplicada. É o pai direto de todos os iten
 
 ### Grid Item
 
+Filhos diretos do `grid container`. Aqui, os elementos `grid-item` são itens da grade, mas os `grid-subitem` não são.
+
+```html
+<div class="grid-container">
+  <div class="grid-item item-1">
+    <div class="grid-subitem"></div>
+  </div>
+  <div class="grid-item item-2"></div>
+</div>
+```
+
 ### Grid Line
 
 ### Grid Track
