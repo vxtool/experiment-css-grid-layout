@@ -104,6 +104,11 @@ O espaço total cercado por quatro linhas da grade. A área da grade pode ser co
 - justify-self
 - align-self
 
+## Referências
+
+- [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS Grid Layout Module Level 1](https://www.w3.org/TR/css-grid-1/)
+
 ## Contribuindo
 
 - Faça o fork!

@@ -104,6 +104,11 @@ The total space surrounded by four grid lines. A grid area may be comprised of a
 - justify-self
 - align-self
 
+## References 
+
+- [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS Grid Layout Module Level 1](https://www.w3.org/TR/css-grid-1/)
+
 ## Contributing
 
 - Fork it!
