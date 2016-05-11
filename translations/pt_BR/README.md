@@ -16,6 +16,56 @@
 
 Apenas IE 10+ e Edge dão suporte a `CSS grid`. Ele pode ser habilitado no Chrome através da bandeira `Recursos experimentais da Plataforma Web` em `chrome://flags`, na barra de endereço do navegador. Você pode habilitá-lo no Firefox usando o sinalizador `layout.css.grid.enabled`.
 
+## Terminologia
+
+### Grid Container
+
+```css
+.grid-container { display: grid; }
+```
+
+### Grid Item
+
+### Grid Line
+
+### Grid Track
+
+### Grid Cell
+
+### Grid Area
+
+## Propriedades
+
+### Propriedades para o Grid Container
+
+- display
+- grid-template-columns
+- grid-template-rows
+- grid-template-areas
+- grid-column-gap
+- grid-row-gap
+- grid-gap
+- justify-items
+- align-items
+- justify-content
+- align-content
+- grid-auto-columns
+- grid-auto-rows
+- grid-auto-flow
+- grid
+
+### Propriedades para os Grid Items
+
+- grid-column-start
+- grid-column-end
+- grid-row-start
+- grid-row-end
+- grid-column
+- grid-row
+- grid-area
+- justify-self
+- align-self
+
 ## Contribuindo
 
 - Faça o fork!

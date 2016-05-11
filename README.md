@@ -16,6 +16,55 @@
 
 Only IE 10+ and Edge support Grid Layout. It can be enabled in Chrome through the `Experimental Web Platform features` flag in `chrome://flags`. You can enable it in Firefox using the `layout.css.grid.enabled` flag.
 
+## Terminology
+
+### Grid Container
+
+```css
+.grid-container { display: grid; }
+```
+
+### Grid Item
+
+### Grid Line
+
+### Grid Track
+
+### Grid Cell
+
+### Grid Area
+
+## Properties
+
+### Properties for the Grid Container
+
+- display
+- grid-template-columns
+- grid-template-rows
+- grid-template-areas
+- grid-column-gap
+- grid-row-gap
+- grid-gap
+- justify-items
+- align-items
+- justify-content
+- align-content
+- grid-auto-columns
+- grid-auto-rows
+- grid-auto-flow
+- grid
+
+### Properties for the Grid Items
+
+- grid-column-start
+- grid-column-end
+- grid-row-start
+- grid-row-end
+- grid-column
+- grid-row
+- grid-area
+- justify-self
+- align-self
 
 ## Contributing
 
