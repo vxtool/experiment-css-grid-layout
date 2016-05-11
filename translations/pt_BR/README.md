@@ -48,19 +48,25 @@ Filhos diretos do `grid container`. Aqui, os elementos `grid-item` são itens da
 
 ### Grid Line
 
-As linhas divisórias que formam a estrutura da grelha. Eles podem ser tanto verticais (column grid lines) ou horizontais (row grid lines) e residir em ambos os lados de uma linha ou coluna.
+As linhas divisórias que formam a estrutura da grade. Eles podem ser tanto verticais (column grid lines) ou horizontais (row grid lines) e residir em ambos os lados de uma linha ou coluna.
 
 ![Grid Line](../../source/img/grid-line.png)
 
 ### Grid Track
 
+O espaço entre as duas linhas adjacentes da grade. Você pode pensar neles como as colunas ou linhas da grade. Aqui é a área da grade entre as segunda e terceira linhas.
+
 ![Grid Track](../../source/img/grid-track.png)
 
 ### Grid Cell
 
+O espaço entre duas linhas adjacentes e duas linhas de colunas adjacentes. É uma única **unidade** da grade. Aqui é a célula da grade entre a linha 1 e 2, e linhas de coluna 2 e 3.
+
 ![Grid Cell](../../source/img/grid-cell.png)
 
 ### Grid Area
+
+O espaço total cercado por quatro linhas da grade. A área da grade pode ser constituída por qualquer número de células. Aqui está a área da grade entre as linhas 1 e 3, e linhas de coluna 1 e 3.
 
 ![Grid Area](../../source/img/grid-area.png)
 
@@ -69,6 +75,8 @@ As linhas divisórias que formam a estrutura da grelha. Eles podem ser tanto ver
 ### Propriedades para o Grid Container
 
 - display
+  - grid 
+  - inline-grid
 - grid-template-columns
 - grid-template-rows
 - grid-template-areas

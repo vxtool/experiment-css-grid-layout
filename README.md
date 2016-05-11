@@ -54,13 +54,19 @@ The dividing lines that make up the structure of the grid. They can be either ve
 
 ### Grid Track
 
+The space between two adjacent grid lines. You can think of them like the columns or rows of the grid. Here's the grid track between the second and third row grid lines.
+
 ![Grid Track](source/img/grid-track.png)
 
 ### Grid Cell
 
+The space between two adjacent row and two adjacent column grid lines. It's a single **unit** of the grid. Here's the grid cell between row grid lines 1 and 2, and column grid lines 2 and 3.
+
 ![Grid Cell](source/img/grid-cell.png)
 
 ### Grid Area
+
+The total space surrounded by four grid lines. A grid area may be comprised of any number of grid cells. Here's the grid area between row grid lines 1 and 3, and column grid lines 1 and 3.
 
 ![Grid Area](source/img/grid-area.png)
 
@@ -69,6 +75,8 @@ The dividing lines that make up the structure of the grid. They can be either ve
 ### Properties for the Grid Container
 
 - display
+  - grid 
+  - inline-grid
 - grid-template-columns
 - grid-template-rows
 - grid-template-areas
