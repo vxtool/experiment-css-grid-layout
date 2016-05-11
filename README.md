@@ -48,6 +48,8 @@ Direct children of the `grid container`. Here the `grid-item` elements are grid 
 
 ### Grid Line
 
+The dividing lines that make up the structure of the grid. They can be either vertical (column grid lines) or horizontal (row grid lines) and reside on either side of a row or column. 
+
 ### Grid Track
 
 ### Grid Cell
