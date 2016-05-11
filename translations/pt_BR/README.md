@@ -18,6 +18,29 @@ Apenas IE 10+ e Edge dão suporte a `CSS grid`. Ele pode ser habilitado no Chrom
 
 ## Terminologia
 
+A unidade `fr`: Esta unidade é usada para especificar uma fração do espaço disponível. Ele foi criado para ser usado com `grid-rows` e `grid-columns`.
+
+```html
+<div class="grid-container">
+  <div class="grid-element item-a">A</div>
+  <div class="grid-element item-b">B</div>
+  <div class="grid-element item-c">C</div>
+  <div class="grid-element item-d">D</div>
+  <div class="grid-element item-e">E</div>
+  <div class="grid-element item-f">F</div>
+</div>
+```
+
+```css
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 10px 0.3fr 10px 0.7fr;
+  grid-template-rows: auto 20px auto;
+}
+```
+
+![fr unit](../../source/img/unit-fr.png)
+
 ### Grid Container
 
 O elemento no qual `display: grid` é aplicada. É o pai direto de todos os itens da grade.
@@ -108,6 +131,7 @@ O espaço total cercado por quatro linhas da grade. A área da grade pode ser co
 
 - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [CSS Grid Layout Module Level 1](https://www.w3.org/TR/css-grid-1/)
+- [Introducing the CSS Grid Layout](http://www.sitepoint.com/introducing-the-css-grid-layout/)
 
 ## Contribuindo
 

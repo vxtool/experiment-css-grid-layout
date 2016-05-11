@@ -18,6 +18,29 @@ Only IE 10+ and Edge support Grid Layout. It can be enabled in Chrome through th
 
 ## Terminology
 
+The `fr` unit: This unit is used to specify a fraction of available space. It is meant to be used with `grid-rows` and `grid-columns`.
+
+```html
+<div class="grid-container">
+  <div class="grid-element item-a">A</div>
+  <div class="grid-element item-b">B</div>
+  <div class="grid-element item-c">C</div>
+  <div class="grid-element item-d">D</div>
+  <div class="grid-element item-e">E</div>
+  <div class="grid-element item-f">F</div>
+</div>
+```
+
+```css
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 10px 0.3fr 10px 0.7fr;
+  grid-template-rows: auto 20px auto;
+}
+```
+
+![fr unit](source/img/unit-fr.png)
+
 ### Grid Container
 
 The element on which `display: grid` is applied. It's the direct parent of all the grid items.
@@ -108,6 +131,7 @@ The total space surrounded by four grid lines. A grid area may be comprised of a
 
 - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [CSS Grid Layout Module Level 1](https://www.w3.org/TR/css-grid-1/)
+- [Introducing the CSS Grid Layout](http://www.sitepoint.com/introducing-the-css-grid-layout/)
 
 ## Contributing
 
