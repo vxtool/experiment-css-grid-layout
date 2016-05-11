@@ -20,6 +20,15 @@ Apenas IE 10+ e Edge dão suporte a `CSS grid`. Ele pode ser habilitado no Chrom
 
 ### Grid Container
 
+O elemento no qual `display: grid` é aplicada. É o pai direto de todos os itens da grade.
+
+```html
+<div class="grid-container">
+  <div class="grid-item item-1"></div>
+  <div class="grid-item item-2"></div>
+</div>
+```
+
 ```css
 .grid-container { display: grid; }
 ```

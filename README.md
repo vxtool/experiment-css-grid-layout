@@ -20,6 +20,15 @@ Only IE 10+ and Edge support Grid Layout. It can be enabled in Chrome through th
 
 ### Grid Container
 
+The element on which `display: grid` is applied. It's the direct parent of all the grid items.
+
+```html
+<div class="grid-container">
+  <div class="grid-item item-1"></div>
+  <div class="grid-item item-2"></div>
+</div>
+```
+
 ```css
 .grid-container { display: grid; }
 ```
