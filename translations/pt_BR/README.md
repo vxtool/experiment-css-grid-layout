@@ -48,11 +48,21 @@ Filhos diretos do `grid container`. Aqui, os elementos `grid-item` são itens da
 
 ### Grid Line
 
+As linhas divisórias que formam a estrutura da grelha. Eles podem ser tanto verticais (column grid lines) ou horizontais (row grid lines) e residir em ambos os lados de uma linha ou coluna.
+
+![Grid Line](../../source/img/grid-line.png)
+
 ### Grid Track
+
+![Grid Track](../../source/img/grid-track.png)
 
 ### Grid Cell
 
+![Grid Cell](../../source/img/grid-cell.png)
+
 ### Grid Area
+
+![Grid Area](../../source/img/grid-area.png)
 
 ## Propriedades
 

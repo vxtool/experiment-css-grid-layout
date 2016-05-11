@@ -50,11 +50,19 @@ Direct children of the `grid container`. Here the `grid-item` elements are grid 
 
 The dividing lines that make up the structure of the grid. They can be either vertical (column grid lines) or horizontal (row grid lines) and reside on either side of a row or column. 
 
+![Grid Line](source/img/grid-line.png)
+
 ### Grid Track
+
+![Grid Track](source/img/grid-track.png)
 
 ### Grid Cell
 
+![Grid Cell](source/img/grid-cell.png)
+
 ### Grid Area
+
+![Grid Area](source/img/grid-area.png)
 
 ## Properties
 
